@@ -1,0 +1,18 @@
+,caseName,caseId,justice_106,justice_108,justice_109,justice_110,justice_111,justice_112,justice_113,justice_114,justice_115,predictedDirection,decisionDirection
+0,BROWN et al. v. BOARD OF EDUCATION OF TOPEKA et al.,1953-069,True,True,False,False,True,True,False,False,True,True,False
+1,MAPP v. OHIO,1960-133,True,False,False,True,True,True,True,False,True,True,False
+2,"GIDEON v. WAINWRIGHT, CORRECTIONS DIRECTOR",1962-058,True,True,False,True,True,True,False,False,True,True,False
+3,MIRANDA v. ARIZONA,1965-122,True,True,False,False,True,True,False,False,True,True,False
+4,TINKER et al. v. DES MOINES INDEPENDENT COMMUNITY SCHOOL DISTRICT et al.,1968-043,True,True,False,False,True,True,False,False,True,True,False
+5,"ROE et al. v. WADE, DISTRICT ATTORNEY OF DALLAS COUNTY",1972-048,True,True,False,True,True,True,True,False,True,True,False
+6,"UNITED STATES v. NIXON, PRESIDENT OF THE UNITED STATES, et al.",1973-172,True,True,False,True,True,True,False,True,True,True,True
+7,REGENTS OF THE UNIVERSITY OF CALIFORNIA v. BAKKE,1977-147,True,True,False,False,True,True,False,True,True,True,True
+8,NEW JERSEY v. T. L. O.,1984-022,True,False,False,False,False,False,False,True,True,False,True
+9,HAZELWOOD SCHOOL DISTRICT et al. v. KUHLMEIER et al.,1987-019,True,True,False,False,True,True,False,False,True,True,True
+10,TEXAS v. JOHNSON,1988-124,True,True,False,False,True,True,False,False,True,True,False
+11,FLOWERS V. MISSISSIPPI,2018-054,True,True,True,False,True,True,False,False,True,True,False
+12,WASHINGSTON STATE DEPT LICENSING V. COUGAR DEN INC,2018-011,False,True,False,True,False,False,False,False,True,False,False
+13,FRANCHISE TAX BOARD CALIFORNIA V. HYATT,2018-031,True,True,False,False,True,True,False,False,True,True,True
+14,AMERICAN LEGION V. AMERICAN HUMANIST SOCIETY,2018-052,True,True,True,True,True,True,True,True,False,True,True
+15,RUCHO V. COMMON CAUSE,2018-066,False,True,True,False,True,False,False,False,True,False,True
+16,DAWSON V. STEAGER,2018-024,False,False,False,False,False,False,False,False,True,False,False
