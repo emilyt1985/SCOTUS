@@ -47,7 +47,7 @@ Ideally, we would like to have a more complete model, trained for all Supreme Co
 
 
 ### How to Train Your Model
-!(https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/giphy.gif)[https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/giphy.gif]
+![model](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/giphy.gif)
 
 After we selected the useful columns and cleaned up the NAN values in the original data, 
 we did one-hot encoding to all the factors we used to predict a justice's ruling behavior:
