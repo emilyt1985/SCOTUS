@@ -1,4 +1,4 @@
-# SCOTUS
+# [SCOTUS](https://emilyt1985.github.io/index.html)
 
 ## Case predictor based on Supreme Court makeup. Training a model based on data from court rulings from 1949 to 2017. 
 
