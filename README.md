@@ -52,40 +52,40 @@ Ideally, we would like to have a more complete model, trained for all Supreme Co
 After we selected the useful columns and cleaned up the NAN values in the original data, 
 we did one-hot encoding to all the factors we used to predict a justice's ruling behavior:
 
-one
+![one](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/1.png)
 
 
 In our ML model, first we did data pre-processing, focusing on the direction of the individual justice's ruling:
 
-two
+![two](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/2.png)
 
 
-three
+![three](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/3.png)
 
 
 We chose some machine learning models that can work with our data set,
 and tested the accuracy to see which would work best:
 
-four
+![four](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/3.png)
 
 
 We then did further testing with hard and soft voting classifiers:
 
-five
+![five](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/5.png)
 
 
 Since no one model was the best predictor for all the justices, we decided to test the linear SVM on all of them.
 
-six
+![six](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/6.png)
 
 
 This is how our model tested against the data.
 We also used a confusion matrix to compare the number of true and false negatives and positives to the data.
 
-seven
+![seven](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/7.png)
 
 
 Lastly, we saved the model:
 
-eight
+![eight](https://github.com/emilyt1985/emilyt1985.github.io/blob/master/images/8.png)
 
