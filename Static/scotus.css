@@ -1,0 +1,72 @@
+/* .fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    } */
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+    }
+
+#texts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    vertical-align: bottom;
+}
+
+#text {
+    text-align: center;
+    /* padding-left: 5%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px; 
+}
+
+#footer {
+    position: absolute;
+    background-color:#4e79a7;
+    text-align: center;
+    height: 8%;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+
+        font-size: 30px;
+    }
+
+    h5 {
+
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+
+        font-size: 24px;
+    }
+    h5 {
+
+        font-size: 20px;
+    }
+    .jumbotron jumbotron-fluid {
+
+        width: 500px;   
+    }
+
+}

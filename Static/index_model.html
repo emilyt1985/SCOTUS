@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How to Train Your Model</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="scotus.css">
+    
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark" style="background-color: #4e79a7;">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index.html">SCOTUS Votes</a>
+
+  <!-- Collapse button -->
+  <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+        aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index_about.html">About the Project</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index_model.html">Behind the Model<span class="sr-only">(current)</span></a>
+        </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
+
+    <div class="container-fluid" style="margin: auto; width: 70%;">
+        <div id="image" style="display:inline;">
+            <img src='images/giphy.gif' alt="gif" style="width: 10%; margin-top: 10px;">
+        </div>
+        <div id="texts" style="display: inline; white-space: nowrap;">
+            How to Train Your Model
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="text" style="font-size: 55px; color: gray; font-style: oblique;">Creating the Model</div>
+        <hr style= "width: 80%; border: 2px solid gray; border-radius: 1px;">
+        <br>
+        <div id="text">After we selected the useful columns and cleaned up the NAN values in the original data, <br> we did one-hot encoding to all the factors we used to predict a justice's ruling behavior:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/1.png' alt="one" style="width: 65%; margin: 20px 12%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text" style="font-size: 17px">In our ML model, first we did data pre-processing, focusing on the direction of the individual justice's ruling:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/2.png' alt="two" style="width: 50%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div>
+            <img src='images/3.png' alt="three" style="width: 60%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text">We chose machine learning models that can work with our data set, and tested the accuracy to see which would work best:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/4.png' alt="four" style="width: 65%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text">We then did further testing with hard and soft voting classifiers:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/5.png' alt="five" style="width: 65%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text">Since no one model was the best predictor for all the justices, we decided to test the linear SVM on all of them.</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/6.png' alt="six" style="width: 65%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text">This is how our model tested against the data.<br>We also used a confusion matrix to compare the number of true and false negatives and positives to the data.</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/7.png' alt="seven" style="width: 65%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text">Lastly, we saved the model:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/8.png' alt="eight" style="width: 65%; margin: 20px 14%;">
+        </div>
+        <br>
+        <div id="text" style="font-size: 55px; color: gray; font-style: oblique;">Using the Model</div>
+        <hr style= "width: 80%; border: 2px solid gray; border-radius: 1px;">
+        <br>
+        <br>
+        <div id="text">We prepared the case data (5 cases from the 2018 session and 12 Historical Landmark cases) using Pandas and one-hot encoding<br> to convert the categorical 
+            values for later feeding into the model:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/9_1.png' alt="eight" style="width: 65%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text">We then used nested for loops and pre-defined functions to iterate through each case and justice's model in order <br>to predict respective outcomes:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/9_2.png' alt="eight" style="width: 65%; margin: 20px 14%;">
+            <img src='images/9_3.png' alt="eight" style="width: 65%; margin: 20px 14%;">
+        </div>
+
+        <br>
+        <br>
+        <div id="text">The predictive model results were then converted to a dataframe to save to CSV for use in Tableau visualizations:</div>
+        <hr style="width: 70%;">
+        <br>
+        <div>
+            <img src='images/9_4.png' alt="eight" style="width: 65%; margin: 20px 14%;">
+        </div>
+        <br>
+        <br>
+        <div id="text">Interestingly, we were able to accurately predict 80% of the cases from the 2018 session, whereas the predicted outcomes for historical cases were not as accurate (25%). 
+            This makes sense given that we were making predictions based on different justices than those that were on the court at the time; in addition, 
+            conservative and liberal judgement ideologies have experienced significant shifts between when these cases were heard and today.</div>
+        <br>
+        <br>
+    </div>
+        <!--[ footer ] -->
+    <div id="footer">
+        <!-- <div class="container" style="background-color:#4e79a7"> -->
+            <p class="footer-block" style="color: white; margin-top: 12px;">Thank you for your interest.</p>
+        </div>
+    </div>
+</body>
